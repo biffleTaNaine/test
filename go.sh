@@ -1,0 +1,2 @@
+#!/bin/bash
+apt update && apt install gnome-core terminator zsh ufw whois dnsutils htop secure-delete xclip keepassx mat2 bleachbit filezilla gnome-shell-pomodoro vlc transmission-gtk moka-icon-theme faba-icon-theme -y && apt remove gnome-terminal rhythmbox totem cheese polari inkscape brasero gnome-dictionary gnome-user-guide gnome-packagekit empathy yelp gnome-weather gnome-contacts gnome-software gnome-online-miners gnome-sushi tracker gnome-calculator gnome-sushi vino && apt autoremove -y
